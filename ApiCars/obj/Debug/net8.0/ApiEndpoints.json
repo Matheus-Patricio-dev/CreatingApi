@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "ApiCars.Controllers.FabricanteController",
+    "Method": "GetFab",
+    "RelativePath": "api/Fabricante",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ApiCars.Models.fabricanteModel, ApiCars, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
