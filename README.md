@@ -44,19 +44,21 @@ Para a persistência de dados, este projeto utiliza o **Entity Framework Core** 
 Uma Api básica, utilizando Nomes de Carros, sua fabricante e seu pais, utilizando banco de dados Postgree
 
 ## Funcionalidades
-- Metodo Get
+- Metodo GET
+- Metodo POST
+- Comunicação com Postgree
 
 ## Lista de Tarefas
 
 ### Tarefas Completas ✅
 - [x] Implementação do GET
 - [x] Integração com o Banco de dados
-
+- [x] Implementacao do Metodo Post.
+- [x] tratar erros dos Verbos HTTP.
+ 
 ### Tarefas Pendentes 🚧
 - [ ] Implementar a interface e nova tabela de comunicação com Banco de dados.
-- [ ] tratar erros dos Verbos HTTP.
 - [ ] Testar integração.
-- [ ] Implementacao do Metodo Post.
 - [ ] Implementacao do Metodo Update.
 - [ ] Implementacao do Metodo Delete.
 - [ ] Criar documentação para a API
