@@ -34,6 +34,49 @@ Para a persistência de dados, este projeto utiliza o **Entity Framework Core** 
 
 ---
 
+# Nome do Projeto
+
+## Status do Projeto
+- **Status Atual**: Em progresso
+- **Versão Atual**: v1.0
+- **Última Atualização**: 2024-11-24
+- [![Status de Build](https://img.shields.io/badge/build-passing-brightgreen)](https://ci.example.com)
+
+## Descrição
+Uma Api básica, utilizando Nomes de Carros, sua fabricante e seu pais, utilizando banco de dados Postgree
+
+## Funcionalidades
+- Metodo Get
+
+## Lista de Tarefas
+
+### Tarefas Completas ✅
+- [x] Implementação do GET
+- [x] Integração com o Banco de dados
+
+### Tarefas Pendentes 🚧
+- [ ] Implementar a interface e nova tabela de comunicação com Banco de dados.
+- [ ] tratar erros dos Verbos HTTP.
+- [ ] Testar integração.
+- [ ] Implementacao do Metodo Post.
+- [ ] Implementacao do Metodo Update.
+- [ ] Implementacao do Metodo Delete.
+- [ ] Criar documentação para a API
+
+### Melhorias Futuros 🌱
+- [ ] Refatorar código do módulo do Contexto e Repositorio
+- [ ] Melhorar comunicacao com o usuario no Swagger
+- [ ] Melhorar interface do usuário
+
+## Como Contribuir
+Se você deseja contribuir com o projeto, siga estas etapas:
+1. Fork o repositório.
+2. Crie uma branch para a sua feature (`git checkout -b feature/nome-da-feature`).
+3. Comite suas alterações (`git commit -am 'Adiciona nova feature'`).
+4. Envie para o repositório original (`git push origin feature/nome-da-feature`).
+5. Abra um pull request.
+
+
 ## ⚙️ Tecnologias Utilizadas
 
 - **ASP.NET Core** ![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat&logo=aspnetcore&logoColor=white)
