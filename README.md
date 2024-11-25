@@ -34,8 +34,6 @@ Para a persistência de dados, este projeto utiliza o **Entity Framework Core** 
 
 ---
 
-# Nome do Projeto
-
 ## Status do Projeto
 - **Status Atual**: Em progresso
 - **Versão Atual**: v1.0
