@@ -45,22 +45,26 @@ Uma Api básica, utilizando Nomes de Carros, sua fabricante e seu pais, utilizan
 
 ## Funcionalidades
 - Metodo GET
+- Metodo GET{Id}
 - Metodo POST
+- Metodo PUT
+- Metodo DELETE
 - Comunicação com Postgree
 
 ## Lista de Tarefas
 
 ### Tarefas Completas ✅
 - [x] Implementação do GET
+- [x] Implementacao do Metodo UPDATE.
+- [x] Implementacao do Metodo DELETE.
+- [x] Implementacao do Metodo POST.
 - [x] Integração com o Banco de dados
-- [x] Implementacao do Metodo Post.
 - [x] tratar erros dos Verbos HTTP.
+
  
 ### Tarefas Pendentes 🚧
 - [ ] Implementar a interface e nova tabela de comunicação com Banco de dados.
 - [ ] Testar integração.
-- [ ] Implementacao do Metodo Update.
-- [ ] Implementacao do Metodo Delete.
 - [ ] Criar documentação para a API
 
 ### Melhorias Futuros 🌱
