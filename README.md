@@ -36,8 +36,8 @@ Para a persistência de dados, este projeto utiliza o **Entity Framework Core** 
 
 ## Status do Projeto
 - **Status Atual**: Em progresso
-- **Versão Atual**: v1.0
-- **Última Atualização**: 2024-11-24
+- **Versão Atual**: v0.8
+- **Última Atualização**: 2024-11-27
 - [![Status de Build](https://img.shields.io/badge/build-passing-brightgreen)](https://ci.example.com)
 
 ## Descrição
@@ -60,10 +60,9 @@ Uma Api básica, utilizando Nomes de Carros, sua fabricante e seu pais, utilizan
 - [x] Implementacao do Metodo POST.
 - [x] Integração com o Banco de dados
 - [x] tratar erros dos Verbos HTTP.
-
+- [x] Implementar a interface e nova tabela de comunicação com Banco de dados.
  
 ### Tarefas Pendentes 🚧
-- [ ] Implementar a interface e nova tabela de comunicação com Banco de dados.
 - [ ] Testar integração.
 - [ ] Criar documentação para a API
 
