@@ -1,6 +1,6 @@
 ﻿namespace ApiCars.Models
 {
-    public class fabricanteModel
+    public class FabricanteModel
     {
         //entidade fabricante
         public int Id { get; set; }    

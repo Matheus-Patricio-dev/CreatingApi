@@ -40,14 +40,15 @@ namespace ApiCars.Migrations
                     name: "IX_Car_FabricanteId",
                     table: "Car",
                     column: "FabricanteId"
-                );
+                );  
             migrationBuilder.AddForeignKey
                 (
                     name: "FK_Car_Fabricante_FabricanteID",
                     table: "Car",
                     column: "FabricanteId",
                     principalTable: "Fabricante",
-                    principalColumn: "Id"
+                    principalColumn: "Id",
+                    onDelete: ReferentialAction.Cascade
                 );
         }
 

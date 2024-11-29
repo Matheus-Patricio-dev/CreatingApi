@@ -1,5 +1,5 @@
 ﻿using ApiCars.Models;
-using ApiCars.Repositorys.Interfaces;
+using ApiCars.Repositories.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,42 +18,42 @@ namespace ApiCars.Controllers
 
         //GET VERB
         [HttpGet]
-        public async Task<ActionResult<List<fabricanteModel>>> GetallFabricantes()
+        public async Task<ActionResult<List<FabricanteModel>>> GetAllFabricantes()
         {
-            List<fabricanteModel> fabricantes = await _fabricanteRepository.GetallFabricantes();
-            return Ok(fabricantes);
+            List<FabricanteModel> fabricanteModel = await _fabricanteRepository.GetAllFabricantes();
+            return Ok(fabricanteModel);
         }
 
 
         //GET{ID} VERB
         [HttpGet("{id}")]
 
-        public async Task<ActionResult<List<fabricanteModel>>> GetFabricantesById(int id)
+        public async Task<ActionResult<List<FabricanteModel>>> GetFabricantesById(int id)
         {
-            fabricanteModel fabricante = await _fabricanteRepository.GetFabricantesById(id);
-            return Ok(fabricante);
+            FabricanteModel fabricanteModel = await _fabricanteRepository.GetFabricantesById(id);
+            return Ok(fabricanteModel);
         }
 
         //POST VERB 
         [HttpPost]
-        public async Task<ActionResult<fabricanteModel>> AddNewFabricante([FromBody] fabricanteModel fabricante)
+        public async Task<ActionResult<FabricanteModel>> AddNewFabricante([FromBody] FabricanteModel fabricante)
         {
-            fabricanteModel variavel = await _fabricanteRepository.AddNewFabricante(fabricante);
+            FabricanteModel variavel = await _fabricanteRepository.AddNewFabricante(fabricante);
             return Ok(variavel);
         }
 
         //PUT VERB
         [HttpPut("{id}")]
-        public async Task<ActionResult<fabricanteModel>> UpdateFabricante([FromBody] fabricanteModel fabricante, int id)
+        public async Task<ActionResult<FabricanteModel>> UpdateFabricante([FromBody] FabricanteModel fabricante, int id)
         {
             fabricante.Id = id;
-            fabricanteModel variavel = await _fabricanteRepository.UpdateFabricante(fabricante, id);
+            FabricanteModel variavel = await _fabricanteRepository.UpdateFabricante(fabricante, id);
             return Ok(variavel);
         }
 
         //DELETE VERB
         [HttpDelete]
-        public async Task<ActionResult<fabricanteModel>> Delete(int id)
+        public async Task<ActionResult<FabricanteModel>> Delete(int id)
         {
             bool deleted = await _fabricanteRepository.DeleteFabricante(id);
             return Ok(deleted);

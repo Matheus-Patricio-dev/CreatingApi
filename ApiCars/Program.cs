@@ -1,7 +1,7 @@
 
 using ApiCars.Data;
-using ApiCars.Repositorys;
-using ApiCars.Repositorys.Interfaces;
+using ApiCars.Repositories;
+using ApiCars.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiCars
@@ -24,6 +24,7 @@ namespace ApiCars
                     options => options.UseNpgsql(builder.Configuration.GetConnectionString("DataBase")));
 
             builder.Services.AddScoped<IFabricanteRepository, FabricanteRepository>();
+            builder.Services.AddScoped<ICarRepository, CarRepository>();
 
             var app = builder.Build();
 
@@ -33,6 +34,7 @@ namespace ApiCars
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+       
 
             app.UseHttpsRedirection();
 

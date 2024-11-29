@@ -10,7 +10,8 @@ namespace ApiCars.Data
            
         }
 
-        public DbSet<fabricanteModel> Fabricante { get; set; }
+        public DbSet<FabricanteModel> Fabricante { get; set; }
+        public DbSet<CarModel> Car { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
