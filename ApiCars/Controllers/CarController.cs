@@ -1,11 +1,13 @@
 ﻿using ApiCars.Models;
 using ApiCars.Repositories;
 using ApiCars.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiCars.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CarController : ControllerBase
@@ -28,7 +30,6 @@ namespace ApiCars.Controllers
 
         //GET{ID} VERB
         [HttpGet("{id}")]
-
         public async Task<ActionResult<List<CarModel>>> GetCarById(int id)
         {
             CarModel car = await _carRepository.GetCarById(id);
