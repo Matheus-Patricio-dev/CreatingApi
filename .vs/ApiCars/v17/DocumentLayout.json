@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Matheus\\source\\repos\\ApiCars\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|c:\\users\\matheus\\source\\repos\\apicars\\apicars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|solutionrelative:apicars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|c:\\users\\matheus\\source\\repos\\apicars\\apicars\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|solutionrelative:apicars\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|c:\\users\\matheus\\source\\repos\\apicars\\apicars\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|solutionrelative:apicars\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|c:\\users\\matheus\\source\\repos\\apicars\\apicars\\migrations\\20241124224208_initialdb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|solutionrelative:apicars\\migrations\\20241124224208_initialdb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|c:\\users\\matheus\\source\\repos\\apicars\\apicars\\migrations\\20241124224208_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|solutionrelative:apicars\\migrations\\20241124224208_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|c:\\users\\matheus\\source\\repos\\apicars\\apicars\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|solutionrelative:apicars\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|c:\\users\\matheus\\source\\repos\\apicars\\apicars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303FC2F3-9945-47D6-88B3-6F1DA0E58AE7}|ApiCars\\ApiCars.csproj|solutionrelative:apicars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,39 +30,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20241124224208_InitialDB.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\ApiCars\\ApiCars\\Migrations\\20241124224208_InitialDB.Designer.cs",
-              "RelativeDocumentMoniker": "ApiCars\\Migrations\\20241124224208_InitialDB.Designer.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\ApiCars\\ApiCars\\Migrations\\20241124224208_InitialDB.Designer.cs",
-              "RelativeToolTip": "ApiCars\\Migrations\\20241124224208_InitialDB.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T21:25:28.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20241124224208_InitialDB.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\ApiCars\\ApiCars\\Migrations\\20241124224208_InitialDB.cs",
-              "RelativeDocumentMoniker": "ApiCars\\Migrations\\20241124224208_InitialDB.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\ApiCars\\ApiCars\\Migrations\\20241124224208_InitialDB.cs",
-              "RelativeToolTip": "ApiCars\\Migrations\\20241124224208_InitialDB.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T21:25:25.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CarController.cs",
               "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\ApiCars\\ApiCars\\Controllers\\CarController.cs",
               "RelativeDocumentMoniker": "ApiCars\\Controllers\\CarController.cs",
               "ToolTip": "C:\\Users\\Matheus\\source\\repos\\ApiCars\\ApiCars\\Controllers\\CarController.cs",
               "RelativeToolTip": "ApiCars\\Controllers\\CarController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T14:33:34.819Z"
+              "WhenOpened": "2024-12-05T14:33:34.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,19 +49,20 @@
               "RelativeDocumentMoniker": "ApiCars\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\Matheus\\source\\repos\\ApiCars\\ApiCars\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ApiCars\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAlwB8AAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T01:09:29.678Z"
+              "WhenOpened": "2024-12-01T01:09:29.678Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\ApiCars\\ApiCars\\Program.cs",
               "RelativeDocumentMoniker": "ApiCars\\Program.cs",
               "ToolTip": "C:\\Users\\Matheus\\source\\repos\\ApiCars\\ApiCars\\Program.cs",
               "RelativeToolTip": "ApiCars\\Program.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAiwE8AAABjAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwEcAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T22:50:46.164Z",
               "EditorCaption": ""
